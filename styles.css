@@ -1,11 +1,44 @@
-body {
-    background-color: #d91e1e;
+* {
+    background-color: #CCFCCB;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
 }
-.rec-list {
-    background-color:  #ffae00;
-    line-height: 2.5;
-    color: #d91e1e;
+.list-container{
+    display: flex;
+    justify-content:space-around;
+    flex: auto;
+}
+.rec-list-breakfast,
+.rec-list-lunch,
+.rec-list-snacks {
+    background-color:  #96E6B3;
+    color: #464E47;
+    width: 600px;
+    justify-content: center;
+    border: 2px solid #568259;
 }
 h1 {
-    color: #ffae00;
+    color: #464E47;
+}
+.list-container h1,
+                ul,
+                li
+                a{
+    display:flex;
+    flex-direction: column;
+    background-color: #96E6B3;
+    align-items: center;
+    color: #464E47;
+}
+.list-container li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #96E6B3;
+    color: #464E47;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 70;
+    
 }
